@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria com efeito fumê</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <main>
+    <div class="galeria">
+      <!-- Os botões permitem selecionar as imagens pelo teclado. -->
+      <button type="button" aria-label="Ampliar imagem de água-viva">
+        <img src="https://lh3.googleusercontent.com/drive-storage/AJQWtBPDP_dgpK4nBD1OymswKlhI8RZFfRqUm2hUZzTWSmZYS8ULj0SaoAVSam5nDqJcovTTqvSgEjIGvvzaUz5H-stqO7jgLFYRjgNrA94chskEvcNX=w1366-h633?auditContext=forDisplay" alt="Água-viva">
+      </button>
+
+
+      <button type="button" aria-label="Ampliar imagem de coala">
+        <img src="https://lh3.googleusercontent.com/drive-storage/AJQWtBNuz0XaRSMpjYG42f8faOs67pBbmKMqNn5SAGGgPWmyDgODb8264y0FBpXAi63ISEFFoYs-R9UR8iXGbr-TFOASK-7DnYAdyrsEtqSOHNgPLHqm=w1366-h633?auditContext=forDisplay" alt="Coala">
+      </button>
+
+
+      <button type="button" aria-label="Ampliar paisagem de deserto">
+        <img src="https://lh3.googleusercontent.com/drive-storage/AJQWtBMKGg0CI7T0QH9asXzYZIivdnVdw0SCGY-FFgZl0CiyEKxXZlvOUv7sPboJy_8eRJ2brw33VOvpWW4Q8B2a6eqofHrJHE3jURndhMVS527Cuwe5=w1366-h633?auditContext=forDisplay" alt="Paisagem de deserto">
+      </button>
+
+
+      <button type="button" aria-label="Ampliar flores em um lago">
+        <img src="https://lh3.googleusercontent.com/drive-storage/AJQWtBNVBeC888ktE46-ZlXRmNZnbmcMalrCoTZM_qAjaXeBnhf-6J9Z2YWHxy22coodQt6Ps9vuIDLCiYpmqXJ3wqKxKIsFfmIJHXc-CMVY0zngcQwd=w1366-h633?auditContext=forDisplay" alt="Flores em um lago">
+      </button>
+
+
+      <button type="button" aria-label="Ampliar casas próximas ao lago">
+        <img src="https://lh3.googleusercontent.com/drive-storage/AJQWtBOUQRrJeNF2FFBoWz0yN6l5kdZ_n9zCr4H3IHJ9B-GncmLo8boLKwNTAG02_xarvRfbKGQmAATi_O0riJtvQh8nvHOQKR7eqrkgNztKL0pkXF9r=w1366-h633?auditContext=forDisplay" alt="Casas próximas ao lago">
+      </button>
+
+
+      <button type="button" aria-label="Ampliar rio com árvores">
+        <img src="https://lh3.googleusercontent.com/drive-storage/AJQWtBMrRD1Yhh3AT6-hpcNQYWQdXZUq4tgCH3kfR_nxOc79VzEpFmRIqeZgjZ5oHTPrzHIN2N7agiIebvGRyQADpIoGFSSgCHvUofxrjHbMtlgp_IAE=w1366-h633?auditContext=forDisplay" alt="Rio com árvores">
+      </button>
+    </div>
+  </main>
+
+
+  <!-- Janela que apresenta a imagem ampliada. -->
+  <dialog class="ampliacao" aria-label="Imagem ampliada">
+    <button class="fechar" type="button"
+      aria-label="Fechar imagem ampliada">
+      &times;
+    </button>
+
+
+    <img class="imagem-ampliada" alt="">
+  </dialog>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
 
